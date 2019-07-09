@@ -1,0 +1,20 @@
+C:\Users\Mroczek Kamil\source\repos\komunikatorServer\komunikatorServer\bin\Debug\komunikatorServer.exe.config
+C:\Users\Mroczek Kamil\source\repos\komunikatorServer\komunikatorServer\bin\Debug\komunikatorServer.exe
+C:\Users\Mroczek Kamil\source\repos\komunikatorServer\komunikatorServer\bin\Debug\komunikatorServer.pdb
+C:\Users\Mroczek Kamil\source\repos\komunikatorServer\komunikatorServer\obj\Debug\komunikatorServer.csprojAssemblyReference.cache
+C:\Users\Mroczek Kamil\source\repos\komunikatorServer\komunikatorServer\obj\Debug\komunikatorServer.Properties.Resources.resources
+C:\Users\Mroczek Kamil\source\repos\komunikatorServer\komunikatorServer\obj\Debug\komunikatorServer.csproj.GenerateResource.cache
+C:\Users\Mroczek Kamil\source\repos\komunikatorServer\komunikatorServer\obj\Debug\komunikatorServer.csproj.CoreCompileInputs.cache
+C:\Users\Mroczek Kamil\source\repos\komunikatorServer\komunikatorServer\obj\Debug\komunikatorServer.exe
+C:\Users\Mroczek Kamil\source\repos\komunikatorServer\komunikatorServer\obj\Debug\komunikatorServer.pdb
+C:\Users\Mroczek Kamil\source\repos\komunikatorServer\komunikatorServer\obj\Debug\komunikatorServer.TcpServer.resources
+C:\Users\kamil\source\repos\komunikatorServer\komunikatorServer\bin\Debug\komunikatorServer.exe.config
+C:\Users\kamil\source\repos\komunikatorServer\komunikatorServer\bin\Debug\komunikatorServer.exe
+C:\Users\kamil\source\repos\komunikatorServer\komunikatorServer\bin\Debug\komunikatorServer.pdb
+C:\Users\kamil\source\repos\komunikatorServer\komunikatorServer\obj\Debug\komunikatorServer.csprojAssemblyReference.cache
+C:\Users\kamil\source\repos\komunikatorServer\komunikatorServer\obj\Debug\komunikatorServer.TcpServer.resources
+C:\Users\kamil\source\repos\komunikatorServer\komunikatorServer\obj\Debug\komunikatorServer.Properties.Resources.resources
+C:\Users\kamil\source\repos\komunikatorServer\komunikatorServer\obj\Debug\komunikatorServer.csproj.GenerateResource.cache
+C:\Users\kamil\source\repos\komunikatorServer\komunikatorServer\obj\Debug\komunikatorServer.csproj.CoreCompileInputs.cache
+C:\Users\kamil\source\repos\komunikatorServer\komunikatorServer\obj\Debug\komunikatorServer.exe
+C:\Users\kamil\source\repos\komunikatorServer\komunikatorServer\obj\Debug\komunikatorServer.pdb

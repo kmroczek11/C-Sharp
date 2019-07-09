@@ -1,0 +1,51 @@
+﻿<Window x:Class="AddressBook.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AddressBook"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btConnect" Content="Connect" HorizontalAlignment="Left" Margin="307,233,0,0" VerticalAlignment="Top" Width="100" Click="BtConnect_Click" Height="50"/>
+        <TextBox x:Name="tbServer" HorizontalAlignment="Left" Height="23" Margin="397,49,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btGetData" Content="Get Data" HorizontalAlignment="Left" Margin="307,308,0,0" VerticalAlignment="Top" Width="100" Height="50" Click="BtGetData_Click"/>
+        <TextBox x:Name="tbDatabase" HorizontalAlignment="Left" Height="23" Margin="397,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbUID" HorizontalAlignment="Left" Height="23" Margin="397,129,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Server" HorizontalAlignment="Left" Margin="307,48,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.505,0.528"/>
+        <Label Content="Database" HorizontalAlignment="Left" Margin="307,89,0,0" VerticalAlignment="Top"/>
+        <Label Content="UID" HorizontalAlignment="Left" Margin="307,132,0,0" VerticalAlignment="Top"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="307,166,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbStatus" Content="No connection" HorizontalAlignment="Left" Margin="429,245,0,0" VerticalAlignment="Top"/>
+        <DataGrid ItemsSource="{Binding Path=LoadDataBinding}" x:Name="dgContacts" HorizontalAlignment="Left" Height="399" Margin="23,10,0,0" VerticalAlignment="Top" Width="255" IsManipulationEnabled="True" CanUserDeleteRows="False">
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding ID}"/>
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}"/>
+                <DataGridTextColumn Header="Age" Binding="{Binding Age}"/>
+                <DataGridTemplateColumn Header="Usuwanie">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Click="Delete">Delete</Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="Aktualizacja">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Click="Update">Update</Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+
+        </DataGrid>
+        <PasswordBox x:Name="pbPassword" HorizontalAlignment="Left" Margin="397,166,0,0" VerticalAlignment="Top" Width="120" Height="23"/>
+        <Button x:Name="btAdd" Content="Add" HorizontalAlignment="Left" Margin="605,99,0,0" VerticalAlignment="Top" Width="100" Height="50" Click="BtAdd_Click"/>
+        <Label x:Name="lbName" Content="Search by name" HorizontalAlignment="Left" Margin="542,265,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbAge" Content="Search by age" HorizontalAlignment="Left" Margin="678,265,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbName" HorizontalAlignment="Left" Height="23" Margin="532,308,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbAge" HorizontalAlignment="Left" Height="23" Margin="657,308,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btSearch" Content="Search" HorizontalAlignment="Left" Margin="605,336,0,0" VerticalAlignment="Top" Width="100" Height="50" Click="BtSearch_Click"/>
+    </Grid>
+</Window>

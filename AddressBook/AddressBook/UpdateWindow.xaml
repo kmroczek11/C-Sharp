@@ -1,0 +1,16 @@
+﻿<Window x:Class="AddressBook.UpdateWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AddressBook"
+        mc:Ignorable="d"
+        Title="UpdateWindow" Height="500" Width="500">
+    <Grid>
+        <TextBox x:Name="tbName" HorizontalAlignment="Left" Height="50" Margin="255,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="173" FontSize="36" FontFamily="Verdana"/>
+        <Label x:Name="lbName" Content="New name" HorizontalAlignment="Left" Margin="29,136,0,0" VerticalAlignment="Top" FontSize="36" FontFamily="Verdana"/>
+        <Label x:Name="lbName_Copy" Content="New age" HorizontalAlignment="Left" Margin="64,229,0,0" VerticalAlignment="Top" FontSize="36" FontFamily="Verdana"/>
+        <TextBox x:Name="tbAge" HorizontalAlignment="Left" Height="50" Margin="255,233,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="173" FontSize="36" FontFamily="Verdana"/>
+        <Button x:Name="btUpdate" Content="Update" HorizontalAlignment="Left" Margin="175,359,0,0" VerticalAlignment="Top" Width="137" FontSize="36" Click="BtUpdate_Click"/>
+    </Grid>
+</Window>
